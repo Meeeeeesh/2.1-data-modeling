@@ -1,4 +1,4 @@
-- Application:
+Application:
   * @Sign in (function)
 - require Users
 - require Pictures
