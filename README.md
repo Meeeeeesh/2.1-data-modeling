@@ -4,14 +4,14 @@ Application:
 - require Pictures
 - require Network
 
-Users (class)
+class Users
 * @users_id - username
 * @password - users password
 * @user_pic_id - user uploaded pictures
 * @tagged_user_pics - pictures of user, tagged in.
   - tag_users
 
-Pictures (class)
+class Pictures
 * @picture_id - individual picture identifier
   - add_pictures
 * @tagged_users - tag users in network
@@ -29,7 +29,7 @@ Pictures (class)
 * @album - segmented albums
   - add_album
 
-Network (class)
+class Network
 * @category - category name
   - view_category_list 
   - add_category
